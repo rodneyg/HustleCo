@@ -19,13 +19,13 @@ struct Article {
     var imageName: String!
     
     init(json: NSDictionary) {
-        id = ""
-        headline = ""
-        subtitle = ""
-        content = ""
-        writer = ""
-        writerImage = ""
-        postedDate = 0.0
-        imageName = ""
+        id = json["id"] as! String
+        headline = json["headline"] as! String
+        subtitle = json["subtitle"] as! String
+        content = json["content"] as! String
+        writer = json["writer"] as! String
+        writerImage = json["writerImage"] as! String
+        postedDate = (json["postedDate"] as! NSNumber).floatValue
+        imageName = json["imageName"] as! String
     }
 }

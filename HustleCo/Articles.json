@@ -1,8 +1,11 @@
-{
-    id: "id",
-    headline : "",
-    subtitle : "",
-    content : "",
-    postedDate : "",
-    imageName : ""
+"articles" : {
+    "id" : {
+        "headline" : "",
+        "subtitle" : "",
+        "content" : "",
+        "postedDate" : "",
+        "writer" : "",
+        "writerImage" : "",
+        "imageName" : ""
+    }
 }

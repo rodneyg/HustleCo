@@ -14,8 +14,8 @@ struct Article {
     var subtitle: String!
     var content: String!
     var writer: String!
-    var writerImage: String
-    var postedDate: Float!
+    var writerImage: String!
+    var postedDate: String!
     var imageName: String!
     
     init(json: NSDictionary) {
@@ -25,7 +25,7 @@ struct Article {
         content = json["content"] as! String
         writer = json["writer"] as! String
         writerImage = json["writerImage"] as! String
-        postedDate = (json["postedDate"] as! NSNumber).floatValue
+        postedDate = json["postedDate"] as! String
         imageName = json["imageName"] as! String
     }
 }

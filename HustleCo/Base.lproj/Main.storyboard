@@ -38,15 +38,6 @@
                                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ro-fV-koF">
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="23" id="yAN-QY-Pgf"/>
-                                                </constraints>
-                                                <state key="normal" image="message"/>
-                                                <connections>
-                                                    <action selector="messageTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kY6-Hd-GDR"/>
-                                                </connections>
-                                            </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fO9-H3-SUD">
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="26" id="8bs-gw-JlI"/>
@@ -73,11 +64,20 @@
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 </state>
                                             </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3ro-fV-koF">
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="21" id="yAN-QY-Pgf"/>
+                                                </constraints>
+                                                <state key="normal" image="message"/>
+                                                <connections>
+                                                    <action selector="messageTouched:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kY6-Hd-GDR"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
-                                            <constraint firstAttribute="bottom" secondItem="3ro-fV-koF" secondAttribute="bottom" constant="31" id="0iA-kZ-wL6"/>
+                                            <constraint firstAttribute="bottom" secondItem="3ro-fV-koF" secondAttribute="bottom" constant="8" id="0iA-kZ-wL6"/>
                                             <constraint firstItem="ezS-a1-0Qf" firstAttribute="leading" secondItem="cwe-dv-32k" secondAttribute="leading" id="3Fh-Pp-i8d"/>
                                             <constraint firstAttribute="trailing" secondItem="cwe-dv-32k" secondAttribute="trailing" constant="13" id="5OM-5T-TsM"/>
                                             <constraint firstItem="fO9-H3-SUD" firstAttribute="top" secondItem="bEd-QB-iZM" secondAttribute="bottom" constant="19.5" id="8EY-q9-Tos"/>
@@ -87,7 +87,7 @@
                                             <constraint firstItem="cwe-dv-32k" firstAttribute="leading" secondItem="auM-LQ-loU" secondAttribute="leading" constant="20" id="TAN-q5-uie"/>
                                             <constraint firstItem="fO9-H3-SUD" firstAttribute="bottom" secondItem="auM-LQ-loU" secondAttribute="bottomMargin" id="Xlh-QT-O4W"/>
                                             <constraint firstItem="cwe-dv-32k" firstAttribute="leading" secondItem="bEd-QB-iZM" secondAttribute="leading" constant="-33" id="cRF-OW-RSC"/>
-                                            <constraint firstItem="3ro-fV-koF" firstAttribute="top" secondItem="cwe-dv-32k" secondAttribute="bottom" constant="20" id="e5P-Nc-Q4v"/>
+                                            <constraint firstItem="3ro-fV-koF" firstAttribute="top" secondItem="cwe-dv-32k" secondAttribute="bottom" constant="45.5" id="e5P-Nc-Q4v"/>
                                             <constraint firstItem="bEd-QB-iZM" firstAttribute="top" secondItem="cwe-dv-32k" secondAttribute="bottom" constant="6" id="x4P-gL-WBi"/>
                                             <constraint firstItem="cwe-dv-32k" firstAttribute="top" secondItem="auM-LQ-loU" secondAttribute="topMargin" id="xf5-IJ-gla"/>
                                             <constraint firstItem="cwe-dv-32k" firstAttribute="centerX" secondItem="fO9-H3-SUD" secondAttribute="centerX" id="yLh-CX-tIh"/>
@@ -102,10 +102,17 @@
                                     <constraint firstAttribute="trailing" secondItem="auM-LQ-loU" secondAttribute="trailing" id="kdl-r3-TcC"/>
                                 </constraints>
                             </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thehustle_white" translatesAutoresizingMaskIntoConstraints="NO" id="jIH-Bw-mwQ"/>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zeg-pI-f23">
                                 <state key="normal" image="search"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="thehustle_white" translatesAutoresizingMaskIntoConstraints="NO" id="jIH-Bw-mwQ"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tues, Dec 20" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Q2Z-en-fk7">
+                                <frame key="frameInset" minX="258" minY="400" width="101" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AmericanTypewriter-Semibold" family="American Typewriter" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>

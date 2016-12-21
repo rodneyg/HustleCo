@@ -9,7 +9,6 @@
 import Foundation
 
 struct Article {
-    var id: String
     var headline: String!
     var subtitle: String!
     var content: String!
@@ -19,7 +18,6 @@ struct Article {
     var imageName: String!
     
     init(json: NSDictionary) {
-        id = json["id"] as! String
         headline = json["headline"] as! String
         subtitle = json["subtitle"] as! String
         content = json["content"] as! String

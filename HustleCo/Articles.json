@@ -1,5 +1,6 @@
-"articles" : {
-    "id" : {
+[
+ {
+    "article" : {
         "headline" : "Costco says \"nahh\" to online shopping",
         "subtitle" : "",
         "content" : "",
@@ -7,8 +8,10 @@
         "writer" : "Lindsey \"waiting for some Velveeta Underground\" Quinn",
         "writerImage" : "userpic",
         "imageName" : "costco"
-    },
-    "id" : {
+    }
+ },
+ {
+    "article" : {
         "headline" : "Tech is full of growers, not showers",
         "subtitle" : "",
         "content" : "",
@@ -16,8 +19,10 @@
         "writer" : "Lindsey \"Kendall's on vacation\" Quinn",
         "writerImage" : "userpic",
         "imageName" : "unicorns"
-    },
-    "id" : {
+    }
+ },
+ {
+    "article" : {
         "headline" : "Facebook’s fake news fix",
         "subtitle" : "",
         "content" : "",
@@ -25,8 +30,10 @@
         "writer" : "Kendall \"Victory Lap\" Baker",
         "writerImage" : "userpic-guy",
         "imageName" : "facebook"
-    },
-    "id" : {
+    }
+ },
+ {
+    "article" : {
         "headline" : "Uber just had one of the weirdest days ever",
         "subtitle" : "",
         "content" : "",
@@ -35,5 +42,5 @@
         "writerImage" : "userpic-guy",
         "imageName" : "uber"
     }
-    
-}
+ }
+]

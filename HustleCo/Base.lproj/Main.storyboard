@@ -131,10 +131,12 @@
                     </view>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <connections>
+                        <outlet property="bgImage" destination="xmp-KS-nZr" id="Ahj-rt-IpN"/>
                         <outlet property="headline" destination="cwe-dv-32k" id="nRY-3V-2yz"/>
                         <outlet property="messageButton" destination="3ro-fV-koF" id="vcn-zO-VAy"/>
                         <outlet property="readButton" destination="fO9-H3-SUD" id="lCa-Ug-fAL"/>
                         <outlet property="writer" destination="bEd-QB-iZM" id="FQA-5r-ZDh"/>
+                        <outlet property="writerImage" destination="ezS-a1-0Qf" id="Ojr-hu-agb"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
